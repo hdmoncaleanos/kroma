@@ -15,6 +15,11 @@ class HelqControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "test something"() {
+    void "Testing the right Sentence to Show when looking at index"() {
+        when:
+        controller.index()
+
+        then:
+        'I\'m here :P' == response.text
     }
 }

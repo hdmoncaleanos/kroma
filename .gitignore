@@ -49,3 +49,9 @@ Temporary Items
 
 .directory
 target/
+.idea/
+kroma.iml
+kroma-grailsPlugins.iml
+.asscache
+.slcache/
+classes/
