@@ -6,8 +6,8 @@ import spock.lang.Specification
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(HelqController)
-class HelqControllerSpec extends Specification {
+@TestFor(AlbumController)
+class AlbumControllerSpec extends Specification {
 
     def setup() {
     }
@@ -15,11 +15,6 @@ class HelqControllerSpec extends Specification {
     def cleanup() {
     }
 
-    void "Testing the right Sentence to Show when looking at index"() {
-        when:
-        controller.index()
-
-        then:
-        'I\'m here :P' == response.text
+    void "test something"() {
     }
 }
